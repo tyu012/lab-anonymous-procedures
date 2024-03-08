@@ -13,8 +13,8 @@ import java.util.List;
  * experiment in working with anonymous procedures.
  *
  * @author Samuel A. Rebelsky
- * @author Your Name Here
- * @author Your Name Here
+ * @author William Pitchford
+ * @author Tim Yu
  */
 public class ListUtils {
 
@@ -22,6 +22,7 @@ public class ListUtils {
    * Select all the elements of vals for which pred holds.
    */
   public static <T> ArrayList<T> select(List<T> vals, Predicate<T> pred) {
+    
     return null;        // STUB
   } // select(List<T>, Predicate<T>)
 
@@ -44,6 +45,5 @@ public class ListUtils {
    */
   public static <T,R> ArrayList<R> map(Function<T,R> fun, List<T> vals) {
     return null;
-  } // map(Function<T,R>, List<T>) 
-
+  } // map(Function<T,R>, List<T>)
 } // class ListUtils
